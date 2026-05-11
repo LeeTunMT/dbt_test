@@ -1,0 +1,15 @@
+# models/schema.yml
+models:
+  - name: sales_analysis
+    description: "Analyze revenue of particular chanels"
+    columns:
+      - name: sales_channel
+        description: "chanels"
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        description: "Total revenue"
+        tests:
+          - not_null
+

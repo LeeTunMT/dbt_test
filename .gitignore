@@ -1,2 +1,4 @@
 .venv
 note.txt
+logs
+.env
